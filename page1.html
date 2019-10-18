@@ -42,58 +42,52 @@
                 </table>  
             </div>
         
-         
-        <div id = "review-div-id">
-        <div id="review-section">
-            
-            <input type="text" name="name" id="name-review" placeholder="Name here..">
-            <input type="text" name="email" id="email-review" placeholder="Email here..">
+        <form action="review-items">
 
-            <select name="burgers" id="burger-list">
-               <option value="1">CheeseBurger</option>
-               <option value="2">McChicken</option>
-               <option value="3">Big Mac</option>
-               <option value="4">Quarter Pounder</option>
-               <option value="5">Filet-O-Fish</option>
-               <option value="6">Double Cheeseburger</option>
-               <option value="7">McDouble</option>
-               <option value="8">BBQ Ranch Burger</option>
-               <option value="9">Hamburger</option>
-            </select>
-            <label for="burger-list">Please choose a Burger</label>
-            
-            <input type="checkbox" name="t&c" id="t&c">
-            <label for="t&c">I have read the Terms and Conditions</label> 
-            <button id="submit-button-review">Submit Review</button>
+            <fieldset>
+                <legend>Review your Item</legend>
+                <div id = "review-div-id">
+                    <div id="review-section">
+           
+                    <input type="text" name="name" id="name-review" placeholder="Name here..">
+                    <input type="text" name="email" id="email-review" placeholder="Email here..">
 
-            <div id = "star">
-            <input id = "5star" type="radio" name="star" value="5"> 
-            <label for="5star" title="text">5 Stars</label> 
-            <input id = "4star" type="radio" name="star" value="4"> 
-            <label for="4star" title="text">4 Stars</label> 
-            <input id = "3star" type="radio" name="star" value="3">   
-            <label for="3star" title="text">3 Stars</label> 
-            <input id = "2star" type="radio" name="star" value="2"> 
-            <label for="2star" title="text">2 Stars</label> 
-            <input id = "1star" type="radio" name="star" value="1"> 
-            <label for="1star" title="text">1 Stars</label> 
-            <!-- Star rating system help: https://codepen.io/tammykimkim/pen/yegZRw -->
+                    <select name="burgers" id="burger-list">
+                    <option value="1">CheeseBurger</option>
+                    <option value="2">McChicken</option>
+                    <option value="3">Big Mac</option>
+                    <option value="4">Quarter Pounder</option>
+                    <option value="5">Filet-O-Fish</option>
+                    <option value="6">Double Cheeseburger</option>
+                    <option value="7">McDouble</option>
+                    <option value="8">BBQ Ranch Burger</option>
+                    <option value="9">Hamburger</option>
+                    </select>
+                    <label for="burger-list">Please choose a Burger</label>
+            
+                    <input type="checkbox" name="t&c" id="t&c">
+                    <label for="t&c">I have read the Terms and Conditions</label> 
+                    <button id="submit-button-review">Submit Review</button>
+
+                        <div id = "star">
+                            <input id = "5star" type="radio" name="star" value="5"> 
+                            <label for="5star" title="text">5 Stars</label> 
+                            <input id = "4star" type="radio" name="star" value="4"> 
+                            <label for="4star" title="text">4 Stars</label> 
+                            <input id = "3star" type="radio" name="star" value="3">   
+                            <label for="3star" title="text">3 Stars</label> 
+                            <input id = "2star" type="radio" name="star" value="2"> 
+                            <label for="2star" title="text">2 Stars</label> 
+                            <input id = "1star" type="radio" name="star" value="1"> 
+                            <label for="1star" title="text">1 Stars</label> 
+                    <!-- Star rating system help: https://codepen.io/tammykimkim/pen/yegZRw -->
+                        </div>
+            </fieldset>
+        </form>
         
-        </div>
         </div>  
    
     </div>
-            
-       
-    
-
-    
-    
-    
-    
-    
-    
-    
-    <script src="./assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
