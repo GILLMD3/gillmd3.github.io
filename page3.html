@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    
+    <div id="page-container">
+        <div id="content-wrap">
+            <header id = "main-header">
+                <h1>Contact Information</h1>
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/mcdonalds-15-logo-png-transparent.png" alt="McDonalds Logo" id = "mcdonalds-logo">
+            </header>
+
+            <div id="dropdown">
+                <button onClick = "myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a id = "nav-list" href="home.html">Home Page</a>        
+                    <a id = "nav-list" href="page1.html">Page One</a>
+                    <a id = "nav-list" href="page2.html">Page Two</a>
+                    <a id = "nav-list" href="page3.html">Contact Information</a> 
+                </div>
+            </div>
+
+            <form action="personal-information">
+               <div id="contact-container">
+                    <h1>Have something to say? Let us know directly</h1>
+                    <h2 id = "contact-header">Enter your details</h2>
+                    <p id = details-message>Please enter the appropriate details below</p>
+                    <hr>
+
+                    <label for="email"><b>Email Address</b></label>
+                    <br>
+                    <input type="text" name="email" id="email-text" placeholder="Enter Email">
+                    <br>
+
+                    <label for="fname"><b>Name</b></label>
+                    <br>
+                    <input type="text" name="fname" id="fname-text" placeholder="Enter Name">
+                    <br>
+
+                    <label for="lname"><b>Phone Number</b></label>
+                    <br>
+                    <input type="text" name="lname" id="lname-text" placeholder="Enter Number">
+                    <br>
+
+                    <label for="textarea"><b>Share with us your thoughts</b></label>
+                    <br>
+                    <textarea name="textarea" id="stuff-text" cols="30" rows="10"></textarea>
+                    <p id="output-name"></p>
+                    <p id="output-last-modified"></p>
+                    <hr>
+
+                    <button type="button" id = "submit-button">Submit</button>
+               </div>
+            </form>
+        </div>
+        <footer><bold>Matthew Gillan - Web One IT Otago Polytechnic 2019 - Email Address: gillmd3@student.op.ac.nz</bold></footer>
+    </div>
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
